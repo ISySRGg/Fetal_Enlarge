@@ -1,0 +1,10 @@
+# path: ../ultralytics/datasets/data/4CH # dataset root dir
+path: D:/CODE/06 Cardiomegali/P2/code/yolov8/ultralytics/datasets/data/cardiomegali # dataset root dir
+
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+#test: images/unseen  # test images (optional)
+
+names:
+  0: CC
+  1: HC
